@@ -3,6 +3,7 @@ imfinfo('fruits.png')
 imshow(f);
 
 j=imresize(f,0.5);
+pkg load image
 imwrite(j,'fruits2.png');
 imfinfo('fruits2.png')
 figure(2),imshow(j);
